@@ -1,0 +1,31 @@
+{
+  "name": "learn-react",
+  "version": "0.0.1",
+  "description": "Learning react with http://courses.reactjsprogram.com/courses/reactjsfundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txsl/learn-react.git"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Thomas Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txsl/learn-react/issues"
+  },
+  "homepage": "https://github.com/txsl/learn-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.6.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.9.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.14"
+  }
+}
