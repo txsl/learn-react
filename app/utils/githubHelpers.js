@@ -5,13 +5,13 @@ function getUserInfo (username) {
 }
 
 function getRepos (username) {
-	return axios.get('https://api.github.com/users/' + username + '/repos?' + '&per_page=100');
+	return axios.get('https://api.github.com/users/' + username + '/repos' + '?per_page=100');
 }
 
 function getTotalStars (repos) {
 	return repos.data.reduce(function (prev, current) {
 		return prev + current.stargazers_count
-	})
+	}, 0)
 }
 
 function getPlayersData (player) {
@@ -26,6 +26,7 @@ function getPlayersData (player) {
 }
 
 function calculateScores(players) {
+	console.log(players)
 	return [
 		players[0].followers * 3 + players[0].totalStars,
 		players[1].followers * 3 + players[1].totalStars

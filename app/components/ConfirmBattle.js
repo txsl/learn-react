@@ -19,7 +19,7 @@ function ConfirmBattle (props) {
 		    	<UserDetailsWrapper header='Player One'>
 		    		<UserDetails info={props.playersInfo[0]} />
 	    		</UserDetailsWrapper>
-	    		<UserDetailsWrapper header='Player One'>
+	    		<UserDetailsWrapper header='Player Two'>
 		    		<UserDetails info={props.playersInfo[1]} />
 	    		</UserDetailsWrapper>	    	
 		    </div>
