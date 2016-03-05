@@ -26,7 +26,6 @@ function getPlayersData (player) {
 }
 
 function calculateScores(players) {
-	console.log(players)
 	return [
 		players[0].followers * 3 + players[0].totalStars,
 		players[1].followers * 3 + players[1].totalStars
